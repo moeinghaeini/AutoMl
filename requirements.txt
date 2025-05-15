@@ -1,0 +1,12 @@
+h5py==3.8.0
+more-itertools
+matplotlib
+pytest
+pycodestyle
+ConfigSpace
+# if error persists in building wheels
+# try using pip install --upgrade setuptools wheel cython
+# You  may need to install swig
+
+git+https://github.com/automl/neps.git@automlss25
+hposuite[all]@git+https://github.com/automl/hposuite.git@automlss25
